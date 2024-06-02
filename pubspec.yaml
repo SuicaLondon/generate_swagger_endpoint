@@ -2,7 +2,7 @@ name: generate_swagger_endpoint
 owner: suica.dev
 description: A command-line to extract endpoint from swagger.json.
 homepage: https://pub.dev/packages/generate_swagger_endpoint
-version: 1.0.0
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
