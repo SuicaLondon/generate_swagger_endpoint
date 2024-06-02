@@ -1,7 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:generate_swagger_endpoint/generate_swagger_endpoint.dart';
+import './utils/utils.dart';
+import './controller/controller.dart';
 
 void main(List<String> args) async {
   final (String inputPath, String outputPath) = readArgument(args);

@@ -1,7 +1,6 @@
 import 'dart:io';
 
-import 'package:generate_swagger_endpoint/extensions/extension.dart'
-    show FileExtension;
+import '../extensions/extension.dart' show FileExtension;
 
 File readJSONFile(String path) {
   if (path.endsWith('.json')) {
