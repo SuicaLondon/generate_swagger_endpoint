@@ -19,7 +19,6 @@ void main(List<String> args) async {
   if (!Directory(outputPath).existsSync()) {
     Directory(outputPath).createSync();
   }
-  print('hello');
   (outputPath.endsWith('.json')
           ? File(outputPath)
           : File('$outputPath/endpoints.dart'))
